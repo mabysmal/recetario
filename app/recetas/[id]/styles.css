@@ -1,0 +1,109 @@
+
+
+.RecetaContainer{
+    font-family: 'Roboto';
+    border: solid salmon 2px;
+}
+
+.presentation{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.dish-description{
+    font-size: large;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    row-gap: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+
+}
+
+
+.dish-prep, .dish-cook, .dish-total, .servings{
+    font-weight: 800;
+}
+
+.item div{
+    flex-basis: auto;
+}
+
+
+
+
+/* .presentation h1{ */
+h1.dish-name{
+    font-size: 6rem;
+    font-family: 'Kalnia', serif;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+
+}
+
+
+
+
+.ingredientesEInstrucciones{
+    display: grid;
+  grid-template-columns: minmax(100px, 20%) 1fr;;
+}
+
+.ingredients{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;;
+}
+
+.ingredients ul li{
+    padding-bottom: 10%;
+    line-height: 1.5rem;
+    font-size: large;
+}
+
+.ingredients h3{
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 1rem;
+}
+
+
+.instructions{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+}
+
+.instructions h3{
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 1rem;
+}
+
+.instructions ol li{
+    padding-bottom: 1rem;
+    line-height: 2rem;
+    font-size: large;
+
+}

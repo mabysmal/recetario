@@ -1,5 +1,11 @@
 export const recetas = {
-    "Rollitos Primavera": {
+    "rollitos-primavera": {
+        "nombre": "Rollitos Primavera",
+        "descripcion": "Rollitos fritos rellenos de diferentes verduras picadas al estilo juliana y carne molida.",
+        "porciones": "6",
+        "tiempo-preparacion": "30 minutos",
+        "tiempo-coccion": "35 minutos",
+        "tiempo-total": "1 hora y 5 minutos",
         "ingredientes": [
             "1 taza de harina blanca",
             "1 cucharada de fécula de maíz",
@@ -32,5 +38,71 @@ export const recetas = {
             "Envolver un poco del relleno en las hojas de masa como si fuesen burritos, envolver apretando.",
             "Poner nuestros rollitos en la olla con aceite hirviendo hasta que la masa este dorada y crocante.",
         ]
-    }
+    },
+
+    "pavo-navideno": {
+        "nombre": "Pavo Navideño",
+        "descripcion": "Pavo horneado con una mezcla de ajo y mantequilla.",
+        "porciones": "7-9",
+        "tiempo-preparacion": "aprox. 24 horas",
+        "tiempo-coccion": "aprox. 4 horas",
+        "tiempo-total": "aprox. 28 horas",
+        "ingredientes": [
+            "1 Pavo de 6-8 kg, preferentemente ahumado y vaciado.",
+            "1 Jeringa para inyectar el pavo.",
+            "2 Barras de mantequilla.",
+            "Sal al gusto.",
+            "Pimienta al gusto.",
+            "3 cucharadas de ajo en polvo.",
+            "Vino blanco o rosado.",
+            "1 Bolsa para hornear.",
+            "1 Molde para hornear.",
+        ],
+
+        "instrucciones": [
+            "Sacar a descongelar el pavo, tomar en cuenta que por cada kilo son 4 horas de descongelación. Si el pavo pesa 6 kilos, por ejemplo, tomaría 24 horas descongelarlo. Si el pavo es ahumado, no es necesario descongelarlo completamente.",
+            "Derretir la mantequilla.",
+            "Agregar sal, pimienta, ajo en polvo y el vino a la mantequilla derretida y mezclar.",
+            "Inyectar el pavo con la mezcla de mantequilla.",
+            "Dejar reposar el pavo en el refrigerador toda la noche.",
+            "Al día siguiente, meter el pavo en la bolsa para hornear y cerrarla.",
+            "Precalentar el horno a 180°C (350°F).",
+            "Meter el pavo al horno. Tener en cuenta que por cada medio kilo de pavo se deben hornear 20 minutos. Si el pavo pesa 6 kilos, por ejemplo, tomaría 4 horas hornearlo.",
+            "Antes de sacar el pavo del horno, abrir la bolsa para hornear y dejar que se dore la piel por 10-15 minutos.",
+            "Sacar el pavo del horno y dejar reposar por 10 minutos.",
+            "Servir y disfrutar.",
+        ]
+    },
+    "pescado-al-horno": {
+        "nombre": "Pescado al horno",
+        "descripcion": "Pavo horneado con una mezcla de ajo y mantequilla.",
+        "porciones": "7-9",
+        "tiempo-preparacion": "aprox. 24 horas",
+        "tiempo-coccion": "aprox. 4 horas",
+        "tiempo-total": "aprox. 28 horas",
+        "ingredientes": [
+            "1 filete de pescado (tilapia, huachinango, etc.)",
+            "1 cucharada de cebolla en polvo",
+            "2 dientes de ajo",
+            "Mostaza",
+            "1 papa",
+            "1 calabacita o zuccini",
+            "1 zanahoria",
+            "1/4 de barra de mantequilla",
+            "Sal y pimienta al gusto",
+            "Aluminio",
+        ],
+
+        "instrucciones": [
+            "Precalentar el horno a 180°C (350°F).",
+            "Derretir la mantequilla.",
+            "Extender el papel aluminio y poner el filete de pescado en el centro.",
+            "Cortar la papa, calabacita y zanahoria en rebanadas delgadas y ponerlas sobre el pescado.",
+            "Agregar sal, pimienta, ajo y cebolla en polvo a la mantequilla derretida y mezclar.",
+            "Untar la mezcla de mantequilla sobre el filete de pescado.",
+            "Envolver el filete y la mezcla con el papel aluminio.",
+            "Meter el pescado al horno y hornear por 15-20 minutos.",
+            "Servir y disfrutar.",
+        ]
+    },
 }
