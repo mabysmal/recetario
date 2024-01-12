@@ -105,5 +105,10 @@ h1.dish-name{
     padding-bottom: 1rem;
     line-height: 2rem;
     font-size: large;
+}
 
+img{
+    min-width: 200px;
+    max-width: 500px;
+    height: auto;
 }

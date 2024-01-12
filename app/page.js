@@ -1,4 +1,4 @@
-import styles from './page.module.css'
+import styles from './styles.css'
 {/* <style>@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalnia:wght@500&family=Oswald&family=Roboto&display=swap');</style> */}
 // import { Card, CardContent } from "@/components/ui/card"
 import {
@@ -26,10 +26,12 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <h1> Recetas de la familia</h1>
+      <h1 className="title"> Recetas de la familia</h1>
       {/* {Object.keys(recetas).length} */}
+      <div className="presentation">
 
-      <ul>{listOfNames}</ul>
+      </div>
+      <ul className='listaRecetas'>{listOfNames}</ul>
 
       {/* <Carousel className="w-full max-w-xs">
       <CarouselContent>

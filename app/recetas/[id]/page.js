@@ -30,6 +30,7 @@ const RecipeName = ({ params }) => {
                 <h1 className="dish-name">{receta.nombre}</h1>
 
                 <p className="dish-description">{receta.descripcion}</p>
+                <img className= 'imagen-carrusel'   src={'/placeholders/' + params.id + '.jpg'} alt={recetas.nombre}  />
 
                 <div className="time">
                     <div>
