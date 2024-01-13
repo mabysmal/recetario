@@ -185,5 +185,33 @@ export const recetas = {
             "Añadir la leche a la mezcla poco a poco, hasta que vea la consistencia deseada.",
             "Servir y disfrutar.",
         ]
-    }
+    },
+    "masa-para-pizza": {
+        "nombre": "Masa para pizza",
+        "descripcion": "Masa rápida para hacer pizzas.",
+        "porciones": "1",
+        "tiempo-preparacion": "15 mins",
+        "tiempo-coccion": "30 mins.",
+        "tiempo-total": " 45 mins.",
+        "ingredientes": [
+            "500g de harina de trigo",
+            "1/2 cucharadita de sal",
+            "3 cucharadas de aceite de oliva extra virgen",
+            "300mg de agua tibia",
+            "14g de levadura instantánea",
+            "Una bandeja redonda de 40cm de diámetro",
+        ],
+
+        "instrucciones": [
+            "Mezclar todos los ingredientes en un recipiente.",
+            "Tapar el recipiente con un secador de cocina un poco humedecido con agua, dejar reposar por 50 minutos.",
+            "Espolvorear harina sobre una superficie limpia y seca.",
+            "Precalentar el horno a 218°C (425°F).",
+            "Poner la masa en la superficie enharinada.",
+            "Con un rodillo enharinado, estirar la masa en forma de circulo.",
+            "Poner la masa en una bandeja para hornear.",
+            "Hornear en la bandeja por 30 minutos.",
+            "Servir y disfrutar.",
+        ]
+    },
 }
