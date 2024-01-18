@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(36, 29, 26);
+
+}
+
 @media screen and (min-width: 320px) and (max-width: 600px){
     .main {
       padding: 6rem 15rem;
@@ -75,7 +80,7 @@
     .ingredientesEInstrucciones{
         color: wheat;
         display: grid;
-      grid-template-columns: minmax(100px, 35%) 1fr;;
+      grid-template-columns: minmax(100px, 20%) 1fr;;
     }
     
     .ingredients{
@@ -85,7 +90,7 @@
     }
 
     .ingredients ul{
-        padding-left: 10%;
+        padding-left: 5%;
     }
     
     .ingredients ul li{
@@ -97,7 +102,6 @@
     .ingredients h3{
         text-align: center;
         font-size: 5vw;
-        padding-bottom: 1rem;
     }
     
     
@@ -107,12 +111,13 @@
         margin-right: auto;
         width: 70%;
         
+        
     }
     
     .instructions h3{
         text-align: center;
         font-size: 5vw;
-        padding-bottom: 1rem;
+        padding-left: 20%;
     }
     
     .instructions ol li{
@@ -123,10 +128,7 @@
 
   }
 
-body{
-    background-color: rgb(36, 29, 26);
 
-}
 
 /* .RecetaContainer{
     font-family: 'Roboto';
