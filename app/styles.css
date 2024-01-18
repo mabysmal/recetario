@@ -1,5 +1,22 @@
+@media screen and (min-width: 320px) and (max-width: 600px){
+  .main {
+    padding: 6rem 15rem;
+  }
+  .title {
+    font-size: 6rem;
+  }
+  .listaRecetas{
+    font-size: large;
+  }
+}
+
+
+body{
+  background-color: rgb(36, 29, 26);
+}
 
 .main {
+  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -7,6 +24,7 @@
   padding: 6rem;
   background-color: rgb(255, 255, 255);
   color: black;
+  
 }
 
 .title {
@@ -15,11 +33,12 @@
   display: flex;
   justify-content: center;
   padding-bottom: 2rem;
+  color: wheat;
 }
 
 .listaRecetas{
-  border: 2rem solid rgb(255, 255, 255);
-  color: red;
+
+  color: wheat;
   padding-bottom: 1rem;
   line-height: 2rem;
   font-size: large;
@@ -32,11 +51,14 @@
 
 .listaRecetas a{
   text-decoration: none;
-  color: rgb(47, 0, 202);
+  color: rgb(97, 55, 238);
+  transition-duration: 1s;
   
 } 
 
 .listaRecetas a:hover{
   font-weight: 800;
   color: rgb(253, 170, 35);
+  transition-duration: 1s;
+
 }

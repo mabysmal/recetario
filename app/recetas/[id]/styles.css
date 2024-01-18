@@ -1,8 +1,135 @@
+@media screen and (min-width: 320px) and (max-width: 600px){
+    .main {
+      padding: 6rem 15rem;
+    }
+    .title {
+      font-size: 6rem;
+    }
+    .listaRecetas{
+      font-size: large;
+    }
+    h1.dish-name{
+        font-size: 18vw;
+        font-family: 'Kalnia', serif;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0.2rem;
+        text-align: center;
+        color: wheat;
+    
+    }
+
+    .presentation{
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        color: wheat;
+    }
 
 
-.RecetaContainer{
+    img.imagen-carrusel{
+        min-width: auto;
+        max-width: 70%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 1rem;
+    }
+
+    .dish-description{
+        font-size: 5vw;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+        text-align: center;
+    
+    }
+    
+    .time{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.5vw;
+        row-gap: 0.5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 2rem;
+    
+    }
+    
+    
+    .dish-prep, .dish-cook, .dish-total, .servings{
+        font-weight: 800;
+    }
+    
+    .item div{
+        flex-basis: auto;
+    }
+    
+    .ingredientesEInstrucciones{
+        color: wheat;
+        display: grid;
+      grid-template-columns: minmax(100px, 35%) 1fr;;
+    }
+    
+    .ingredients{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;;
+    }
+
+    .ingredients ul{
+        padding-left: 10%;
+    }
+    
+    .ingredients ul li{
+        padding-bottom: 10%;
+        line-height: 1.5rem;
+        font-size: 3.5vw;
+    }
+    
+    .ingredients h3{
+        text-align: center;
+        font-size: 5vw;
+        padding-bottom: 1rem;
+    }
+    
+    
+    .instructions{
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        
+    }
+    
+    .instructions h3{
+        text-align: center;
+        font-size: 5vw;
+        padding-bottom: 1rem;
+    }
+    
+    .instructions ol li{
+        padding-bottom: 1rem;
+        line-height: 2rem;
+        font-size: 3.5vw;
+    }
+
+  }
+
+body{
+    background-color: rgb(36, 29, 26);
+
+}
+
+/* .RecetaContainer{
     font-family: 'Roboto';
-    border: solid salmon 2px;
 }
 
 .presentation{
@@ -14,6 +141,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    color: wheat;
 }
 
 .dish-description{
@@ -45,13 +173,13 @@
 
 .item div{
     flex-basis: auto;
-}
+} */
 
 
 
 
 /* .presentation h1{ */
-h1.dish-name{
+/* h1.dish-name{
     font-size: 6rem;
     font-family: 'Kalnia', serif;
     display: flex;
@@ -64,6 +192,7 @@ h1.dish-name{
 
 
 .ingredientesEInstrucciones{
+    color: wheat;
     display: grid;
   grid-template-columns: minmax(100px, 20%) 1fr;;
 }
@@ -91,7 +220,7 @@ h1.dish-name{
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 70%;
     
 }
 
@@ -107,8 +236,8 @@ h1.dish-name{
     font-size: large;
 }
 
-img{
-    min-width: 200px;
-    max-width: 500px;
+img.imagen-carrusel{
+    min-width: auto;
+    max-width: 70%;
     height: auto;
-}
+} */

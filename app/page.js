@@ -25,7 +25,8 @@ export default function Home() {
   debugger
 
   return (
-    <main className={styles.main}>
+    <div className="EntireContainer">
+      <main className={styles.main}>
       <h1 className="title"> Recetas de la familia</h1>
       {/* {Object.keys(recetas).length} */}
       <div className="presentation">
@@ -51,6 +52,8 @@ export default function Home() {
     </Carousel> */}
 
     </main>
+    </div>
+    
   )
 }
 
