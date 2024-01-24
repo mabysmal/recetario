@@ -8,9 +8,9 @@ import styles from './styles.css';
 import { recetas } from '../../recetas'
 
 const RecipeName = ({ params }) => {
-    console.log(recetas)
-    console.log(params.id)
-    console.log(recetas[params.id])
+    // console.log(recetas)
+    // console.log(params.id)
+    // console.log(recetas[params.id])
     const receta = recetas[params.id];
     const listOfIngredients = receta.ingredientes.map(ingrediente => <li>{ingrediente}</li>)
     const listOfInstructions = receta.instrucciones.map(instruccion => <li>{instruccion}</li>)

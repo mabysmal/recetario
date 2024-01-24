@@ -5,9 +5,14 @@
   .title {
     font-size: 6rem;
   }
-  .listaRecetas{
+  .cards{
     font-size: large;
   }
+  .cards img{
+    width: 70%;
+  
+  }
+
 }
 
 
@@ -44,19 +49,15 @@ body{
   font-size: large;
 }
  
-.listaRecetas li{
-  justify-content: center;
-  align-items: center;
-}
 
-.listaRecetas a{
+.cards a{
   text-decoration: none;
   color: rgb(97, 55, 238);
   transition-duration: 1s;
   
 } 
 
-.listaRecetas a:hover{
+.cards a:hover{
   font-weight: 800;
   color: rgb(253, 170, 35);
   transition-duration: 1s;

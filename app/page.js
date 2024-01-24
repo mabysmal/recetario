@@ -1,61 +1,59 @@
+'use client'
 import styles from './styles.css'
-{/* <style>@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalnia:wght@500&family=Oswald&family=Roboto&display=swap');</style> */}
+{/* <style>@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalnia:wght@500&family=Oswald&family=Roboto&display=swap');</style> */ }
 // import { Card, CardContent } from "@/components/ui/card"
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel"
+import { useWindowSize } from 'react-use';
 import { recetas } from './recetas'
 // import { Card, CardContent } from "@/components/ui/card"
 
-
 export default function Home() {
-  
 
-  const listOfNames = Object.keys(recetas).map(id => 
-  <li>
-    <a href= {'/recetas/' + id}>
-    {recetas[id].nombre}
-    </a>
-    
-  </li>) 
-  debugger
+  const { width, height } = useWindowSize();
+
+  const whichImageToUse = (id) => {
+    if (width < 600) {
+      return <img className='cardimg' src={'/placeholders/' + id + '-mobile' + '.jpg'} alt={recetas.nombre}></img>
+    } else {
+      return <img className='cardimg' src={'/placeholders/' + id + '1' + '.jpg'} alt={recetas.nombre}></img>
+    }
+  }
+
+  const cards = Object.keys(recetas).map(id =>
+    <div href={'/recetas/' + id}>
+      {whichImageToUse(id)}
+      <div className='card-content'>
+        <a href={'/recetas/' + id}>
+          <h3> {recetas[id].nombre} </h3>
+          <p> {recetas[id].descripcion} </p>
+        </a>
+
+      </div>
+
+    </div>
+  )
+
+
+
+
+
+
+  const listOfImages = Object.keys(recetas).map(id =>
+    <li>
+      <img className='cardimg' src={'/placeholders/' + id + '.jpg'} alt={recetas.nombre}></img>
+    </li>)
 
   return (
     <div className="EntireContainer">
       <main className={styles.main}>
-      <h1 className="title"> Recetas de la familia</h1>
-      {/* {Object.keys(recetas).length} */}
-      <div className="presentation">
+        <h1 className="title"> Recetas de la familia</h1>
+        <div className="cards">
+          {cards}
 
-      </div>
-      <ul className='listaRecetas'>{listOfNames}</ul>
+        </div>
+        <span> {width} </span>
 
-      {/* <Carousel className="w-full max-w-xs">
-      <CarouselContent>
-        {Object.keys(recetas).map((id) => (
-          <CarouselItem className= 'diapositiva-carrusel' key={id}>
-            
-            <img className= 'imagen-carrusel'   src={'/placeholders/' + id + '.jpg'} alt={recetas[id].nombre}  />
-            
-            <a className='link-carrusel' href= {'/recetas/' + id}> <h3> {recetas[id].nombre} </h3>  </a>
-
-
-          </CarouselItem>
-        ))}
-      </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
-    </Carousel> */}
-
-    </main>
+      </main>
     </div>
-    
+
   )
 }
-
-// C:\Users\User\Documents\programacion\recetario de mama\package.json
-// C:\Users\User\Documents\programacion\recetario de mama\recetario-de-mama

@@ -1,5 +1,6 @@
 export const recetas = {
     "rollitos-primavera": {
+        "categorias": ['','Complementos'],
         "nombre": "Rollitos Primavera",
         "descripcion": "Rollitos fritos rellenos de diferentes verduras picadas al estilo juliana y carne molida.",
         "porciones": "6",
@@ -20,7 +21,7 @@ export const recetas = {
             "cebolla al gusto",
             "jengibre",
             "salsa de soya",
-            "carne a elegir en trozos pequeños",
+            "carne molida de puerco o res",
             "aceite (suficiente para que los rollitos estén completamente dorados)",
         ],
         "instrucciones": [
@@ -40,6 +41,7 @@ export const recetas = {
         ]
     },
     "pollo-estilo-marroqui": {
+        "categorias": ['aves'],
         "nombre": "Pollo estilo Marroquí",
         "descripcion": "Pollo al estilo norteafricano con limones, frutos secos y aceitunas verdes. Se sirve con puré de papas, ensalada o cuscús. Esta receta es de un amigo de mi esposo, le mandamos saludos",
         "porciones": "6-8",
@@ -89,6 +91,7 @@ export const recetas = {
     },
 
     "pavo-navideno": {
+        "categorias": ['aves'],
         "nombre": "Pavo Navideño",
         "descripcion": "Pavo horneado con una mezcla de ajo y mantequilla.",
         "porciones": "7-9",
@@ -122,6 +125,7 @@ export const recetas = {
         ]
     },
     "pescado-al-horno": {
+        "categorias": ['Pescados y mariscos'],
         "nombre": "Pescado al horno",
         "descripcion": "Pescado horneado al estilo papillot, que significa cocción del alimento en un envoltorio resistente al calor, en este caso aluminio.",
         "porciones": "1",
