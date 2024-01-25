@@ -1,27 +1,67 @@
-@media screen and (min-width: 320px) and (max-width: 600px){
+@media screen and (max-width: 600px) {
+  .EntireContainer{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
   .main {
     padding: 6rem 15rem;
   }
+
+
   .title {
     font-size: 6rem;
+    text-align: center;
   }
-  .cards{
-    font-size: large;
-  }
-  .cards img{
+
+
+  .cardimg {
     width: 70%;
-  
+
+  }
+
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+
+  .card-content h3 {
+    color: wheat;
+    font-size: 2rem;
+  }
+
+  .card-content p {
+    color: wheat;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .card-content {
+    border: solid wheat 1px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
 }
 
+@media screen and (min-width: 601px) and (max-width: 990px) 
 
-body{
+
+
+
+/* body {
   background-color: rgb(36, 29, 26);
 }
 
 .main {
-  
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -29,7 +69,7 @@ body{
   padding: 6rem;
   background-color: rgb(255, 255, 255);
   color: black;
-  
+
 }
 
 .title {
@@ -41,25 +81,25 @@ body{
   color: wheat;
 }
 
-.listaRecetas{
+.listaRecetas {
 
   color: wheat;
   padding-bottom: 1rem;
   line-height: 2rem;
   font-size: large;
 }
- 
 
-.cards a{
+
+.cards a {
   text-decoration: none;
   color: rgb(97, 55, 238);
   transition-duration: 1s;
-  
-} 
 
-.cards a:hover{
+}
+
+.cards a:hover {
   font-weight: 800;
   color: rgb(253, 170, 35);
   transition-duration: 1s;
 
-}
+} */

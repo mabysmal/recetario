@@ -14,39 +14,44 @@ export default function Home() {
     if (width < 600) {
       return <img className='cardimg' src={'/placeholders/' + id + '-mobile' + '.jpg'} alt={recetas.nombre}></img>
     } else {
-      return <img className='cardimg' src={'/placeholders/' + id + '1' + '.jpg'} alt={recetas.nombre}></img>
+      return "nope"
+      // return <img className='cardimg' src={'/placeholders/' + id + '1' + '.jpg'} alt={recetas.nombre}></img>
     }
   }
 
+
+
   const cards = Object.keys(recetas).map(id =>
-    <div href={'/recetas/' + id}>
-      {whichImageToUse(id)}
+    <div className='cards' href={'/recetas/' + id}><a href={'/recetas/' + id}></a>
+
       <div className='card-content'>
+
         <a href={'/recetas/' + id}>
+          {whichImageToUse(id)}
           <h3> {recetas[id].nombre} </h3>
           <p> {recetas[id].descripcion} </p>
         </a>
 
       </div>
+      {/* <button className='btn btn-prev'> ← </button>
+      <button className='btn btn-next'> → </button> */}
 
     </div>
   )
-
-
-
-
-
 
   const listOfImages = Object.keys(recetas).map(id =>
     <li>
       <img className='cardimg' src={'/placeholders/' + id + '.jpg'} alt={recetas.nombre}></img>
     </li>)
 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
   return (
     <div className="EntireContainer">
       <main className={styles.main}>
         <h1 className="title"> Recetas de la familia</h1>
-        <div className="cards">
+        <div className="cardsContainer">
           {cards}
 
         </div>
