@@ -1,5 +1,7 @@
+'use client'
 import React from 'react';
 import Head from 'next/head';
+import { useWindowSize } from 'react-use';
 import styles from './styles.css';
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalnia:wght@500&family=Oswald&family=Roboto&display=swap');
@@ -14,6 +16,15 @@ const RecipeName = ({ params }) => {
     const receta = recetas[params.id];
     const listOfIngredients = receta.ingredientes.map(ingrediente => <li>{ingrediente}</li>)
     const listOfInstructions = receta.instrucciones.map(instruccion => <li>{instruccion}</li>)
+    const { width, height } = useWindowSize();
+    const whichImageToUse = (id) => {
+        if (width < 600) {
+          return <img className='cardimg' src={'/placeholders/' + id + '-mobile' + '.jpg'} alt={recetas.nombre}></img>
+        } else {
+          return <img className='cardimg' src={'/placeholders/' + id + '.jpg'} alt={recetas.nombre}></img>
+          // return <img className='cardimg' src={'/placeholders/' + id + '1' + '.jpg'} alt={recetas.nombre}></img>
+        }
+      }
 
 
 
@@ -30,7 +41,7 @@ const RecipeName = ({ params }) => {
                 <h1 className="dish-name">{receta.nombre}</h1>
 
                 <p className="dish-description">{receta.descripcion}</p>
-                <img className= 'imagen-carrusel'   src={'/placeholders/' + params.id + '.jpg'} alt={recetas.nombre}  />
+                {whichImageToUse(params.id)}
 
                 <div className="time">
                     <div>

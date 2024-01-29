@@ -14,7 +14,7 @@ export default function Home() {
     if (width < 600) {
       return <img className='cardimg' src={'/placeholders/' + id + '-mobile' + '.jpg'} alt={recetas.nombre}></img>
     } else {
-      return "nope"
+      return <img className='cardimg' src={'/placeholders/' + id + '.jpg'} alt={recetas.nombre}></img>
       // return <img className='cardimg' src={'/placeholders/' + id + '1' + '.jpg'} alt={recetas.nombre}></img>
     }
   }
@@ -24,15 +24,16 @@ export default function Home() {
   const cards = Object.keys(recetas).map(id =>
     <div className='cards' href={'/recetas/' + id}><a href={'/recetas/' + id}></a>
 
-      <div className='card-content'>
-
-        <a href={'/recetas/' + id}>
+      <a href={'/recetas/' + id}>
+        <div className='card-content'>
           {whichImageToUse(id)}
-          <h3> {recetas[id].nombre} </h3>
-          <p> {recetas[id].descripcion} </p>
-        </a>
 
-      </div>
+          <div className='text-cards'>
+            <h3> {recetas[id].nombre} </h3>
+            <p> {recetas[id].descripcion} </p>
+          </div>
+        </div>
+      </a>
       {/* <button className='btn btn-prev'> ← </button>
       <button className='btn btn-next'> → </button> */}
 
@@ -45,7 +46,7 @@ export default function Home() {
     </li>)
 
 
-////////////////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////////////////////////
 
   return (
     <div className="EntireContainer">
@@ -55,7 +56,6 @@ export default function Home() {
           {cards}
 
         </div>
-        <span> {width} </span>
 
       </main>
     </div>

@@ -43,7 +43,7 @@ export const recetas = {
     "pollo-estilo-marroqui": {
         "categorias": ['aves'],
         "nombre": "Pollo estilo Marroquí",
-        "descripcion": "Pollo al estilo norteafricano con limones, frutos secos y aceitunas verdes. Se sirve con puré de papas, ensalada o cuscús. Esta receta es de un amigo de mi esposo, le mandamos saludos",
+        "descripcion": "Pollo al estilo norteafricano con limones, frutos secos y aceitunas verdes. Se sirve con puré de papas, ensalada o cuscús. Esta receta es de un amigo de mi esposo, le mandamos saludos.",
         "porciones": "6-8",
         "tiempo-preparacion": "45 mins",
         "tiempo-coccion": "1 h. 30 mins.",
