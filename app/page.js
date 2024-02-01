@@ -13,9 +13,13 @@ export default function Home() {
   const whichImageToUse = (id) => {
     if (width < 600) {
       return <img className='cardimg' src={'/placeholders/' + id + '-mobile' + '.jpg'} alt={recetas.nombre}></img>
-    } else {
+    } 
+    if (width > 600) {
       return <img className='cardimg' src={'/placeholders/' + id + '.jpg'} alt={recetas.nombre}></img>
       // return <img className='cardimg' src={'/placeholders/' + id + '1' + '.jpg'} alt={recetas.nombre}></img>
+    }
+    else {
+      return <img className='cardimg' src={'/placeholders/' + 'PEEPY.jpg'} alt={recetas.nombre}></img>
     }
   }
 

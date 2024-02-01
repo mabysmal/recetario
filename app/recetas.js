@@ -266,4 +266,37 @@ export const recetas = {
             "Servir y disfrutar.",
         ]
     },
+    "marshmallow-witches": {
+        "categorias": ["postres"],
+        "nombre": "Brujas de Malvavisco",
+        "porciones": "12",
+        "tiempo-preparacion": "30 mins",
+        "tiempo-total": "30 mins",
+        "ingredientes": [
+            "3/4 taza de betún de vainilla, dividido",
+            "36 mini chips de chocolate semiamargo",
+            "12 malvaviscos grandes",
+            "1 gota de colorante alimentario verde y naranja",
+            "1/4 taza de coco rallado",
+            "12 obleas de chocolate",
+            "12 piezas de mini Reese's cups o chocolates mini similares.",
+            "12 kisses de chocolate con leche",
+            "2 bolsas pequeñas resellables tipo ziploc tamaño snack",
+            "2 dullas pastelera pequeñas (opcional)"
+        ],
+        "instrucciones": [
+            "Para la cara: Untar un poco con el betún la base de las 3 chips de chocolate (2 para ojos, 1 para nariz en cada malvavisco).",
+            "Para el cabello: En una bolsa pequeña, mezclar colorante verde con unas cuantas gotas de agua", 
+            "Agregar el coco en la bolsa y agitar.",
+            "En un tazón pequeño, mezclar 1/3 de taza de betún con colorante verde.",
+            "Cortar una pequeña abertura diagonal a la bolsa del lado opuesto a donde se cierra. Agregar la dulla pastelera con el betún restante.",
+            "Glasear la mezcla de coco con betún en los lados de los malvaviscos.",
+            "Para los sombreros: En otra bolsa pequeña, mezclar 3 cucharadas de betún con una gota de colorante naranja.",
+            "Cortar una pequeña abertura diagonal a la bolsa del lado opuesto a donde se cierra.",
+            "En el centro de la oblea, untar un poco de betún.",
+            "Colocar una pieza de Resse's mini cup boca abajo en el centro de la oblea, presionar para pegarlo con el betún.",
+            "Untar betún en la base de una pieza de los kisses y colocar sobre el Reese's. Colocar el sombrero con un poco de betún sobre el malvavisco.",
+            "Con la bolsa de betún naranja, hacer un lazo en la base del sombrero.",
+        ]
+    }
 }
