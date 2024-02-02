@@ -1,6 +1,6 @@
 export const recetas = {
     "rollitos-primavera": {
-        "categorias": ['','Complementos'],
+        "categorias": ['', 'Complementos'],
         "nombre": "Rollitos Primavera",
         "descripcion": "Rollitos fritos rellenos de diferentes verduras picadas al estilo juliana y carne molida.",
         "porciones": "6",
@@ -40,6 +40,7 @@ export const recetas = {
             "Poner nuestros rollitos en la olla con aceite hirviendo hasta que la masa este dorada y crocante.",
         ]
     },
+
     "pollo-estilo-marroqui": {
         "categorias": ['aves'],
         "nombre": "Pollo estilo Marroquí",
@@ -91,7 +92,7 @@ export const recetas = {
     },
 
     "pavo-navideno": {
-        "categorias": ['aves'],
+        "categorias": ['aves', "celebraciones"],
         "nombre": "Pavo Navideño",
         "descripcion": "Pavo horneado con una mezcla de ajo y mantequilla.",
         "porciones": "7-9",
@@ -124,6 +125,7 @@ export const recetas = {
             "Servir y disfrutar.",
         ]
     },
+
     "pescado-al-horno": {
         "categorias": ['Pescados y mariscos'],
         "nombre": "Pescado al horno",
@@ -157,6 +159,7 @@ export const recetas = {
             "Servir y disfrutar.",
         ]
     },
+
     "spaghetti-amarillo": {
         "nombre": "Spaghetti amarillo",
         "descripcion": "Spaghetti hecho con queso americano y especias. Perfecto como complemento, especialmente para milanesas.",
@@ -187,6 +190,7 @@ export const recetas = {
             "Servir y disfrutar.",
         ]
     },
+
     "asado-de-puerco": {
         "nombre": "Asado de puerco",
         "descripcion": "El asado de puerco es un platillo típico de la región noreste de México, forma parte de la gastronomía tradicional de Nuevo León. Suele acompañarse con tortillas de maíz, arroz y frijoles refritos.",
@@ -216,6 +220,7 @@ export const recetas = {
             "Servir y disfrutar.",
         ]
     },
+
     "crema-de-aguacate": {
         "nombre": "Crema de aguacate",
         "descripcion": "Crema hecha de aguacate y cilantro. Perfecta para acompañar tostadas y taquitos.",
@@ -238,6 +243,7 @@ export const recetas = {
             "Servir y disfrutar.",
         ]
     },
+
     "masa-para-pizza": {
         "nombre": "Masa para pizza",
         "descripcion": "Masa rápida para hacer pizzas.",
@@ -266,11 +272,14 @@ export const recetas = {
             "Servir y disfrutar.",
         ]
     },
+
     "marshmallow-witches": {
-        "categorias": ["postres"],
+        "categorias": ["postres", "celebraciones"],
         "nombre": "Brujas de Malvavisco",
+        "descripcion": "Bombones decorados en forma de brujitas, perfectos para Halloween. Esta receta es de nuestra amiga Sandra Doull, le mandamos un saludo :D",
         "porciones": "12",
         "tiempo-preparacion": "30 mins",
+        "tiempo-coccion": "0 mins.",
         "tiempo-total": "30 mins",
         "ingredientes": [
             "3/4 taza de betún de vainilla, dividido",
@@ -286,7 +295,7 @@ export const recetas = {
         ],
         "instrucciones": [
             "Para la cara: Untar un poco con el betún la base de las 3 chips de chocolate (2 para ojos, 1 para nariz en cada malvavisco).",
-            "Para el cabello: En una bolsa pequeña, mezclar colorante verde con unas cuantas gotas de agua", 
+            "Para el cabello: En una bolsa pequeña, mezclar colorante verde con unas cuantas gotas de agua",
             "Agregar el coco en la bolsa y agitar.",
             "En un tazón pequeño, mezclar 1/3 de taza de betún con colorante verde.",
             "Cortar una pequeña abertura diagonal a la bolsa del lado opuesto a donde se cierra. Agregar la dulla pastelera con el betún restante.",
@@ -298,5 +307,227 @@ export const recetas = {
             "Untar betún en la base de una pieza de los kisses y colocar sobre el Reese's. Colocar el sombrero con un poco de betún sobre el malvavisco.",
             "Con la bolsa de betún naranja, hacer un lazo en la base del sombrero.",
         ]
+    },
+
+    "chocolate-mint-cookies": {
+        "categorias": ["postres"],
+        "nombre": "Galletas de Chocolate y Menta",
+        "descripcion": "Galletas de chocolate con chips de menta. Esta receta es de nuestra amiga Sandra Doull, le mandamos un saludo :D",
+        "porciones": "aprox. 24",
+        "tiempo-preparacion": "50 mins (incluyendo tiempo de refrigeración)",
+        "tiempo-coccion": "8-10 mins",
+        "tiempo-total": "1 hora",
+        "ingredientes": [
+            "1 taza de harina",
+            "1/2 taza de cacao en polvo",
+            "1/2 cucharadita de bicarbonato de sodio",
+            "1/4 cucharadita de sal",
+            "1/2 taza de mantequilla, suavizada",
+            "3/4 taza de azúcar morena, compacta",
+            "1/4 taza de azúcar blanco",
+            "1 huevo",
+            "1 cucharadita de vainilla",
+            "2 cucharaditas de leche",
+            "1 paquete de chips de menta",
+            "Una bandeja para hornear",
+            "Una cucharada de mantequilla derretida o aceite para engrasar la bandeja."
+        ],
+        "instrucciones": [
+            "Precalentar el horno a 350°F (175°C).",
+            "En un tazón pequeño, combinar harina, cacao en polvo, bicarbonato de sodio y sal.",
+            "En un tazón grande, batir mantequilla, azúcar morena y azúcar blanco con una batidora eléctrica a alta velocidad durante 1 minuto.",
+            "Agregar huevo, vainilla y leche, y mezclar a alta velocidad durante 30 segundos.",
+            "Añadir la mezcla de harina y mezclar a baja velocidad solo hasta que se combine.",
+            "Incorporar los chips de menta con cuidado.",
+            "Cubrir el tazón con film transparente y enfriar en el refrigerador durante 30 minutos.",
+            "Engrasar una bandeja para hornear con mantequilla derretida o aceite.",
+            "Con una cuchara, colocar montones generosos en la bandeja para hornear, separados por 2 pulgadas.",
+            "Hornear durante 8-10 minutos, retirar del horno y dejar enfriar las galletas en la bandeja."
+        ]
+    },
+    
+    "gingersnaps": {
+        "categorias": ["postres", "celebraciones"],
+        "nombre": "Gingersnaps (Galletas de Jengibre)",
+        "descripcion":"Galletas de jengibre crujientes y deliciosas, perfectas para Navidad. Esta receta es de nuestra amiga Sandra Doull, le mandamos un saludo :D" ,
+        "porciones": "aprox. 4 docenas",
+        "tiempo-preparacion": "2 horas y 15 mins (incluyendo tiempo de refrigeración)",
+        "tiempo-coccion": "9 mins",
+        "tiempo-total": "2 horas y 24 mins",
+        "ingredientes": [
+            "3/4 taza de manteca vegetal",
+            "3/4 taza de azúcar blanco",
+            "1/2 taza de melaza",
+            "1 huevo",
+            "2 1/4 tazas de harina tamizada",
+            "1 1/2 cucharaditas de bicarbonato de sodio",
+            "1/4 cucharadita de sal",
+            "1 cucharadita de canela",
+            "1/2 cucharadita de jengibre",
+            "1/8 cucharadita de clavo molido",
+            "Azúcar granulada para enrollar",
+            "Una bandeja para hornear",
+            "Una cucharada de mantequilla derretida o aceite para engrasar la bandeja."
+        ],
+        "instrucciones": [
+            "Precalentar el horno a 375°F (190°C).",
+            "En un tazón grande, batir juntos la manteca y el azúcar hasta que esté suave y esponjoso.",
+            "Agregar melaza y huevo, mezclar bien.",
+            "Tamizar la harina y agregar el bicarbonato de sodio, la sal y las especias al tazón, mezclar bien.",
+            "Refrigerar la masa durante 2 horas.",
+            "Engrasar la bandeja para hornear con mantequilla derretida o aceite.",
+            "En la bandeja, formar bolas de aprox. 1 pulgada de diámetro y espolvorear azúcar granulada encima.",
+            "Hornear durante 9 minutos o hasta que los bordes estén dorados.",
+            "Retirar del horno y dejar enfriar las galletas en la bandeja."
+        ]
+    },
+
+    "whipped-shortbread-cookies": {
+        "categorias": ["postres"],
+        "nombre": "Galletas de Mantequilla",
+        "descripcion": "Galletas de mantequilla suaves. Esta receta es de nuestra amiga Sandra Doull, le mandamos un saludo :D",
+        "porciones": "aprox. 2 docenas",
+        "tiempo-preparacion": "45 mins (incluyendo tiempo de refrigeración)",
+        "tiempo-coccion": "14-16 mins",
+        "tiempo-total": "aprox. 1 hora",
+        "ingredientes": [
+            "1 taza de mantequilla sin sal",
+            "1/2 taza de azúcar glass tamizada",
+            "1/4 taza de almidón de maíz o maizena",
+            "1 cucharadita de vainilla",
+            "1 1/2 tazas de harina",
+            "1/2 cucharadita de sal",
+            "Sprinkles para decorar (opcional)",
+            "Una bandeja para hornear",
+            "Una cucharada de mantequilla derretida o aceite para engrasar la bandeja."
+        ],
+        "instrucciones": [
+            "Precalentar el horno a 300°F (150°C).",
+            "En un tazón grande, con batidores eléctricos, batir mantequilla, azúcar glass, almidón de maíz, vainilla y sal hasta que esté esponjoso.",
+            "Agregar la harina y mezclar justo hasta que esté bien mezclado.",
+            "Cubrir el tazón y refrigerar durante unos 20 minutos.",
+            "Engrasar la bandeja para hornear con mantequilla derretida o aceite",
+            "Con cucharaditas, formar bolas con la masa y colocarlas en la bandeja.", 
+            "Con un tenedor ligeramente enharinado, presionar la parte superior de las galletas hasta que estén aplanadas a aproximadamente 1/4 de pulgada o 0.5 cm .",
+            "Decorar con sprinkles.",
+            "Hornear a 300°F durante 14-16 minutos o hasta que estén ligeramente doradas.",
+            "Dejar enfriar en la bandeja durante 10 minutos y luego transferir a una rejilla para que se enfríen por completo."
+        ]
+    },
+
+    "chocolate-toffee-bits-cookies": {
+        "categorias": ["postres"],
+        "nombre": "Galletas de Chocolate con Trozos de Toffee",
+        "descripcion": "Galletas de chocolate con caramelo. Esta receta es de nuestra amiga Sandra Doull, le mandamos un saludo :D",
+        "porciones": "aprox. 3 docenas",
+        "tiempo-preparacion": "20 mins",
+        "tiempo-coccion": "8-10 mins",
+        "tiempo-total": "30 mins",
+        "ingredientes": [
+            "2 1/3 tazas de harina",
+            "1/2 taza de cacao en polvo",
+            "1 cucharadita de bicarbonato de sodio",
+            "1/2 cucharadita de sal",
+            "1 taza de mantequilla",
+            "2/3 taza de azúcar blanco",
+            "2/3 taza de azúcar morena compacta",
+            "1 cucharadita de vainilla",
+            "2 huevos",
+            "1 paquete de trozos pequeños de toffee o caramelo suave (Preferiblemente Sknor)",
+            "Una bandeja para hornear",
+            "Papel para hornear."
+        ],
+        "instrucciones": [
+            "Precalentar el horno a 350°F (175°C).",
+            "En un tazón, mezclar la harina, cacao, bicarbonato de sodio y sal.",
+            "En un tazón grande, batir mantequilla, azúcar blanco, azúcar moreno y vainilla a velocidad media hasta que esté cremoso.",
+            "Agregar los huevos y batir bien.",
+            "Gradualmente añadir la mezcla de harina, batiendo bien.",
+            "Incorporar los trozos de toffeem o caramelo suave.",
+            "Preparar la bandeja con el papel para hornear.",
+            "Con una cuchara, colocar montones de masa en la bandeja.",
+            "Hornear de 8 a 10 minutos o hasta que estén firmes.",
+            "Dejar enfriar antes de disfrutar."
+        ]
+    },
+
+    "double-chocolate-chip-cookies": {
+        "categorias": ["postres"],
+        "nombre": "Galletas de Doble Chocolate",
+        "descripcion": "Galletas de masa de chocolate con chispas de chocolate. Esta receta es de nuestra amiga Sandra Doull, le mandamos un saludo :D",
+        "porciones": "aprox. 4 docenas",
+        "tiempo-preparacion": "15 mins",
+        "tiempo-coccion": "8-10 mins",
+        "tiempo-total": "25 mins",
+        "ingredientes": [
+            "1 taza de mantequilla",
+            "3/4 taza de azúcar morena compacta",
+            "1/2 taza de azúcar blanco",
+            "1 huevo",
+            "1 cucharadita de vainilla",
+            "1 2/3 tazas de harina",
+            "1/3 taza de cacao en polvo",
+            "1 cucharadita de bicarbonato de sodio",
+            "1/2 cucharadita de sal",
+            "1 paquete de chips de chocolate oscuro",
+            "Una bandeja para hornear",
+            "Una cucharada de mantequilla derretida o aceite para engrasar la bandeja."
+        ],
+        "instrucciones": [
+            "Precalentar el horno a 375°F (190°C).",
+            "En un tazón grande, batir la mantequilla con azúcar morena y azúcar blanco.",
+            "Agregar el huevo y la vainilla, y batir bien.",
+            "En otro tazón, mezclar harina, cacao en polvo, bicarbonato de sodio y sal.",
+            "Añadir gradualmente la mezcla de harina a la mezcla de mantequilla, batiendo bien.",
+            "Incorporar las chips de chocolate oscuro.",
+            "Engrasar la bandeja para hornear con mantequilla derretida o aceite",
+            "Colocar porciones de masa de 1 cucharada en la bandeja.",
+            "Hornear de 8 a 10 minutos, enfriar durante 5 minutos antes de transferir a una rejilla para que se enfríen completamente.",
+        ]
+    },
+
+    "chocolate-chip-cookies": {
+        "categorias": ["postres"],
+        "nombre": "Galletas de Chips de Chocolate",
+        "descripcion": "Galletitas de chispas de chocolate, crujientes por fuera y suaves por dentro. Esta receta es de nuestra amiga Sandra Doull, le mandamos un saludo :D",
+        "porciones": "aprox. 3 docenas",
+        "tiempo-preparacion": "15 mins",
+        "tiempo-coccion": "8-10 mins",
+        "tiempo-total": "25 mins",
+        "ingredientes": [
+            "2 1/4 tazas de harina",
+            "1 cucharadita de bicarbonato de sodio",
+            "1/2 cucharadita de sal",
+            "1 taza de mantequilla, suavizada",
+            "3/4 taza de azúcar blanco",
+            "3/4 taza de azúcar morena compacta",
+            "1 huevo",
+            "1 cucharadita de vainilla",
+            "2 tazas de chips de chocolate semi dulce (puedes agregar chips de chocolate blanco para hacer las 2 tazas)",
+            "Una bandeja para hornear",
+            "Una cucharada de mantequilla derretida o aceite para engrasar la bandeja."
+        ],
+        "instrucciones": [
+            "Precalentar el horno a 375°F (190°C).",
+            "En un tazón grande, batir la mantequilla y los azúcares con una batidora eléctrica a velocidad media hasta que estén blandos.",
+            "Agregar el huevo y la vainilla, batir hasta que quede suave.",
+            "En otro tazón, mezclar harina, bicarbonato de sodio y sal. Agregar gradualmente a la mezcla cremosa.",
+            "Incorporar las chispas de chocolate.",
+            "Engrasar la bandeja para hornear con mantequilla derretida o aceite",
+            "Colocar montones de masa de aprox. 1 cucharada en la bandeja.",
+            "Hornear de 8 a 10 minutos hasta que estén ligeramente doradas; el centro estará suave.",
+            "Enfriar durante 15 minutos y disfrutar."
+        ]
     }
+
+
+
+
+
 }
+
+
+
+
+
+
