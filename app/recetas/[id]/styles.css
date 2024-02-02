@@ -142,7 +142,7 @@ h1.dish-name{
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 1.5rem;
+        width: 85%;
         margin-left: auto;
         margin-right: auto;
         color: wheat;
@@ -161,9 +161,6 @@ h1.dish-name{
 
     .dish-description{
         font-size: 5vw;
-        padding-left: 2rem;
-        padding-right: 2rem;
-
         text-align: center;
     
     }
@@ -237,6 +234,11 @@ h1.dish-name{
         padding-bottom: 1rem;
         line-height: 2rem;
         font-size: 3.5vw;
+    }
+
+    p.dish-description{
+        font-size: 5vw;
+        text-align: center;
     }
 
   }
