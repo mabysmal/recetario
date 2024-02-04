@@ -345,11 +345,11 @@ export const recetas = {
             "Hornear durante 8-10 minutos, retirar del horno y dejar enfriar las galletas en la bandeja."
         ]
     },
-    
+
     "gingersnaps": {
         "categorias": ["postres", "celebraciones"],
         "nombre": "Gingersnaps (Galletas de Jengibre)",
-        "descripcion":"Galletas de jengibre crujientes y deliciosas, perfectas para Navidad. Esta receta es de nuestra amiga Sandra Doull, le mandamos un saludo :D" ,
+        "descripcion": "Galletas de jengibre crujientes y deliciosas, perfectas para Navidad. Esta receta es de nuestra amiga Sandra Doull, le mandamos un saludo :D",
         "porciones": "aprox. 4 docenas",
         "tiempo-preparacion": "2 horas y 15 mins (incluyendo tiempo de refrigeración)",
         "tiempo-coccion": "9 mins",
@@ -407,7 +407,7 @@ export const recetas = {
             "Agregar la harina y mezclar justo hasta que esté bien mezclado.",
             "Cubrir el tazón y refrigerar durante unos 20 minutos.",
             "Engrasar la bandeja para hornear con mantequilla derretida o aceite",
-            "Con cucharaditas, formar bolas con la masa y colocarlas en la bandeja.", 
+            "Con cucharaditas, formar bolas con la masa y colocarlas en la bandeja.",
             "Con un tenedor ligeramente enharinado, presionar la parte superior de las galletas hasta que estén aplanadas a aproximadamente 1/4 de pulgada o 0.5 cm .",
             "Decorar con sprinkles.",
             "Hornear a 300°F durante 14-16 minutos o hasta que estén ligeramente doradas.",
@@ -517,6 +517,150 @@ export const recetas = {
             "Colocar montones de masa de aprox. 1 cucharada en la bandeja.",
             "Hornear de 8 a 10 minutos hasta que estén ligeramente doradas; el centro estará suave.",
             "Enfriar durante 15 minutos y disfrutar."
+        ]
+    },
+
+    "raspberry-chicken": {
+        "categorias": ["aves"],
+        "nombre": "Pollo a la Frambuesa",
+        "descripcion": "Se sirve con arroz blanco, basmati o integral. Esta es una receta de mi suegrita Bonnie, muchas gracias por compartirla con nosotros:D",
+        "porciones": "4",
+        "tiempo-preparacion": " 5 mins",
+        "tiempo-coccion": "20 mins",
+        "tiempo-total": "25 mins",
+        "ingredientes": [
+            "500g de pechuga de pollo",
+            "1/2 taza de harina",
+            "4 cucharaditas de aceite de oliva",
+            "1/2 cucharadita de sal",
+            "1/4 cucharadita de pimienta",
+            "1 cucharadita de romero recién picado o 1/2 cucharadita de romero seco",
+            "1/4 taza de vinagre de frambuesa",
+            "1/4 taza de caldo de pollo",
+            "200g de chícharos",
+            "2 tazas de tomates cherry",
+        ],
+        "instrucciones": [
+            "Cortar el pollo en cubos de 2 pulgadas o 5cm.",
+            "Enharinar los cubos de pollo.",
+            "Calentar 2 cucharaditas de aceite en un sartén o wok. Cocinar el pollo por 5 minutos. Añadir la sal, pimienta y el romero al pollo.",
+            "Retirar el pollo del sartén. Añadir al sartén vinagre y el caldo de pollo y cocinar en fuego medio-alto hasta que reduzca un poco.",
+            "Devolver el pollo al sartén y seguir cocinando en la mezcla del sartén por 5 minutos.",
+            "Servir en los platos y apartar.",
+            "En el mismo sartén, calentar las 2 cucharaditas de aceite restante. Añadir los chícharos y los tomates cherry hasta suavizar.",
+            "Servir los chícharos y tomates en los platos.",
+            "Servir y disfrutar."
+        ]
+    },
+
+    "berries-pie": {
+        "categorias": ["postres"],
+        "nombre": "Pay de Moras",
+        "descripcion": "Pay con masa crujiente y caramelizada con relleno de diferentes moras. Esta es una receta de mi suegrita Bonnie, muchas gracias por compartirla con nosotros:D",
+        "porciones": "8",
+        "tiempo-preparacion": "45 minutos",
+        "tiempo-coccion": "1 hora y 30 minutos",
+        "tiempo-total": "2 horas y 15 minutos",
+        "ingredientes": [
+            "2 tazas de harina",
+            "2 1/2 cucharadas de azúcar para la masa",
+            "1/4 cucharadita de sal",
+            "14 cucharadas o 1 3/4 barras de mantequilla fría sin sal, cortada en cubos",
+            "1 cucharada de agua helada",
+            "1/4 taza de maizena o fecula de maíz",
+            "1 taza de azúcar para el relleno",
+            "1 3/4 lbs o 800g de moras de su preferencia",
+            "Molde para tarda de 9 pulgadas o 23cm",
+
+
+        ],
+        "instrucciones": [
+            "Combinar la harina, el azúcar para la masa.",
+            "Agregar los cubos de mantequilla y suavemente mezclar hasta que los trocitos tengan el tamaño de una uva pasa.",
+            "Vertir el agua helada en la mezcla y mezclar hasta que la masa se una, de 1 1/2 a 3 minutos.",
+            "Formar un disco con 1 1/4 tazas de la masa. Con la masa restante, formar un disco más pequeño.",
+            "Precalentar el horno a  375°F (190°C).",
+            "Enharinar una superficie limpia. Extender el disco de masa más grande en un círculo de 12 pulgadas. Afloja con una espátula metálica larga; enrolla suavemente alrededor del rodillo y luego desenrolla en un molde para tarta de 9 pulgadas (si la masa se agrieta, vuelve a unirla).",
+            "Dobla el borde debajo para que esté al ras con el borde del molde; pellizca y refrigera durante 15 minutos.",
+            "Extiende la masa restante en un círculo de 11 pulgadas. Con un cortador de galletas, corta suficientes formas, como cuadrados, para cubrir la mayor parte de la tarta. Coloca las formas cortadas en una bandeja para hornear y refrigera durante 15 minutos.",
+            "Mezcla la fecula de maíz y el azúcar granulada en un tazón grande. Agrega las moras, revuelve para cubrir. Organiza de manera uniforme en la cáscara de la tarta. Pinta ligeramente las formas de masa con agua, espolvorea con azúcar. Organiza las formas sobre el relleno.",
+            "Hornea la tarta hasta que el relleno burbujee y la masa esté dorada en el centro, de 55 a 60 minutos, hasta 2 horas si las bayas estaban congeladas. Si el borde comienza a oscurecerse, cúbrelo con papel de aluminio. Si comienza a burbujear, coloca una bandeja con borde debajo.",
+            "Servir y disfrutar.",
+        ]
+    },
+
+    "linguine-with-scampi": {
+        "categorias": ["pastas", "pescados y mariscos"],
+        "nombre": "Pasta Linguine con  camarones Scampi",
+        "descripcion": "Delicioso linguine con scampi, una combinación sabrosa de camarones, ajo y limón. Esta es una receta de mi suegrita Bonnie, muchas gracias por compartirla con nosotros:D",
+        "porciones": "4 - 6",
+        "tiempo-preparacion": "15 minutos",
+        "tiempo-coccion": "15 minutos",
+        "tiempo-total": "30 minutos",
+        "ingredientes": [
+            "3/4 taza (1 1/2 barras) de mantequilla o margarina Becel",
+            "1/4 taza de aceite de oliva",
+            "1 libra de camarones grandes crudos, pelados, desvenados y abiertos en mariposa",
+            "4 dientes de ajo grandes, picados",
+            "1/4 cucharadita de hojuelas de pimiento rojo",
+            "Ralladura y jugo de 1/2 limón",
+            "3 cucharadas de perejil fresco picado",
+            "1 libra de linguine, recién cocido",
+            "Sal gruesa y pimienta negra recién molida",
+            "Opcional: pimiento rojo y verde cortados u otras verduras para agregar color",
+            "Queso Parmesano para servir",
+            "Ensalada verde fresca para servir"
+        ],
+
+        "instrucciones": [
+            "Calienta la mantequilla (o margarina) y el aceite de oliva en una sartén grande a fuego medio-bajo hasta que se derrita.",
+            "Añade los camarones y revuelve para cubrirlos.",
+            "Agrega el ajo picado, las hojuelas de pimiento rojo, la ralladura y el jugo de limón, y el perejil.",
+            "Cocina hasta que los camarones se vuelvan rosados y ya no estén translúcidos, de 5 a 7 minutos.",
+            "Monta el linguine recién cocido en un tazón grande.",
+            "Vierte la mezcla de camarones sobre el linguine y revuelve para combinar.",
+            "Sazona con sal y pimienta al gusto.",
+            "Sirve inmediatamente, opcionalmente con queso Parmesano por encima.",
+            "Acompaña con una ensalada verde fresca al lado."
+        ]
+    }, 
+
+    "hungarian-goulash": {
+        "categorias": ["plato-principal"],
+        "nombre": "Gulash Húngaro con Pan Crujiente y Ensalada",
+        "descripcion": "Una deliciosa versión de Gulash Húngaro. Esta es una receta de mi suegrita Bonnie, muchas gracias por compartirla con nosotros:D",
+        "porciones": "6-8",
+        "tiempo-preparacion": "30 minutos",
+        "tiempo-coccion": "2-2.5 horas",
+        "tiempo-total": "2.5-3 horas",
+        "ingredientes": [
+            "1kg de carne para estofado o trozos de carne de res",
+            "2 papas, cortadas en cubos",
+            "1 cebolla mediana, en rodajas",
+            "2 dientes de ajo, finamente picados o 1/8 cucharadita de ajo en polvo",
+            "1/4 taza de mantequilla o margarina",
+            "1 1/2 tazas de agua o caldo de res",
+            "3/4 taza de pasta de tomate",
+            "2 cucharadas de salsa Worcestershire",
+            "1 cucharada de azúcar morena",
+            "2 cucharaditas de sal",
+            "1/2 cucharadita de pimienta negra",
+            "2 cucharaditas de paprika",
+            "1/2 cucharadita de tomillo seco",
+            "1 taza de zanahorias cortadas en cubos (opcional)",
+            "1 taza de apio picado (aproximadamente 2 tallos, opcional)",
+            "1/2 cucharadita de mostaza seca",
+            "Pizca de cayena",
+            "1/4 taza de agua fría",
+            "2 cucharadas de harina",
+            "Fideos anchos o arroz cocido",
+            "Crema agria (opcional)"
+        ],
+        "instrucciones": [
+            "En un tazón o bolsa de plástico, combina harina, paprika, sal, pimienta y tomillo. En lotes, agrega la carne a la mezcla y revuelve para cubrir. Transfiere a una sartén grande; calienta la mitad del aceite a fuego medio-alto. Cocina en lotes, agregando más aceite según sea necesario, hasta que esté dorado por todos lados. Con una espumadera, transfiere la carne a la olla de cocción lenta.",
+            "Añade el caldo y todos los demás ingredientes excepto agua fría, harina, fideos y crema agria a la olla de cocción lenta. Cubre y cocina a fuego lento durante 8 a 10 horas o a fuego alto durante 4 a 6 horas, hasta que las verduras estén tiernas.",
+            "O EN UNA OLLA: Hierve y reduce el fuego. Cubre y cocina a fuego lento en la estufa hasta que esté tierno, de 2 a 2.5 horas.",
+            "Agita 1/4 taza de agua fría y harina en un recipiente bien cerrado; revuelve gradualmente en la mezcla de carne. Lleva a ebullición, revolviendo constantemente. Hierve y revuelve 1 minuto. Sirve sobre fideos calientes. Se puede congelar."
         ]
     }
 
