@@ -2,34 +2,44 @@
 import React from 'react';
 import Head from 'next/head';
 import { useWindowSize } from 'react-use';
-import styles from './styles.css';
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalnia:wght@500&family=Oswald&family=Roboto&display=swap');
 </style>
-// recetas is at
 import { recetas } from '../../recetas'
 
 const RecipeName = ({ params }) => {
-    // console.log(recetas)
-    // console.log(params.id)
-    // console.log(recetas[params.id])
     const receta = recetas[params.id];
     const listOfIngredients = receta.ingredientes.map(ingrediente => <li>{ingrediente}</li>)
     const listOfInstructions = receta.instrucciones.map(instruccion => <li>{instruccion}</li>)
     const { width, height } = useWindowSize();
-    const whichImageToUse = (id) => {
+    const whichImageToUse = (id) => {      
+        console.log(width)
         if (width < 600) {
-          return <img className='cardimg' src={'/placeholders/' + id + '-mobile' + '.jpg'} alt={recetas.nombre}></img>
+            return <img
+                className='cardimg'
+                src={'/placeholders/' + id + '-mobile' + '.jpg'}
+                alt={recetas.nombre}
+                onError={({ currentTarget }) => {
+                    currentTarget.onerror = null
+                    currentTarget.src = '/placeholders/Peepy-mobile.jpg'
+                    console.log('small')
+                }}></img>
         } else {
-          return <img className='cardimg' src={'/placeholders/' + id + '.jpg'} alt={recetas.nombre}></img>
-          // return <img className='cardimg' src={'/placeholders/' + id + '1' + '.jpg'} alt={recetas.nombre}></img>
+            return <img
+                className='cardimg'
+                src={'/placeholders/' + id + '1' + '.jpg'}
+                alt={recetas.nombre}
+                onError={(e) => {
+                    e.target.onerror = null
+                    e.target.src = '/placeholders/Peepy1.jpg'
+                    console.log('big')
+                }}></img>
         }
-      }
+    }
 
 
 
     return (
-        // <div className='RecetaContainer'> 
         <div className="RecetaContainer">
             <Head>
                 <title>{receta.nombre}</title>
@@ -63,11 +73,7 @@ const RecipeName = ({ params }) => {
                         <span className="servings"> Porciones: </span>
                         <span className="servings1"> {receta.porciones} </span>
                     </div>
-
                 </div>
-
-
-
             </div>
 
 
@@ -88,10 +94,7 @@ const RecipeName = ({ params }) => {
                 </div>
 
             </div>
-
         </div>
-
-
     );
 }
 
