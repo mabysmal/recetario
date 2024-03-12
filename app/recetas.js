@@ -623,10 +623,10 @@ export const recetas = {
             "Sirve inmediatamente, opcionalmente con queso Parmesano por encima.",
             "Acompaña con una ensalada verde fresca al lado."
         ]
-    }, 
+    },
 
     "hungarian-goulash": {
-        "categorias": ["plato-principal"],
+        "categorias": ["pastas", "carnes"],
         "nombre": "Gulash Húngaro con Pan Crujiente y Ensalada",
         "descripcion": "Una deliciosa versión de Gulash Húngaro. Esta es una receta de mi suegrita Bonnie, muchas gracias por compartirla con nosotros:D",
         "porciones": "6-8",
@@ -657,12 +657,112 @@ export const recetas = {
             "Crema agria (opcional)"
         ],
         "instrucciones": [
-            "En un tazón o bolsa de plástico, combina harina, paprika, sal, pimienta y tomillo. En lotes, agrega la carne a la mezcla y revuelve para cubrir. Transfiere a una sartén grande; calienta la mitad del aceite a fuego medio-alto. Cocina en lotes, agregando más aceite según sea necesario, hasta que esté dorado por todos lados. Con una espumadera, transfiere la carne a la olla de cocción lenta.",
-            "Añade el caldo y todos los demás ingredientes excepto agua fría, harina, fideos y crema agria a la olla de cocción lenta. Cubre y cocina a fuego lento durante 8 a 10 horas o a fuego alto durante 4 a 6 horas, hasta que las verduras estén tiernas.",
-            "O EN UNA OLLA: Hierve y reduce el fuego. Cubre y cocina a fuego lento en la estufa hasta que esté tierno, de 2 a 2.5 horas.",
-            "Agita 1/4 taza de agua fría y harina en un recipiente bien cerrado; revuelve gradualmente en la mezcla de carne. Lleva a ebullición, revolviendo constantemente. Hierve y revuelve 1 minuto. Sirve sobre fideos calientes. Se puede congelar."
+            "En un tazón o bolsa de plástico, combinar harina, paprika, sal, pimienta y tomillo.",
+            "Agregar la carne a la mezcla y revuelve para cubrir.",
+            "Transferir a una sartén grande; calienta la mitad del aceite a fuego medio-alto.",
+            "Cocinar agregando más aceite según sea necesario, hasta que esté dorado por todos lados.",
+            "Con una cuchara espumadera, transferir la carne a la olla.",
+            "Añadir el caldo y todos los demás ingredientes excepto agua fría, harina, fideos y crema agria a la olla.",
+            "Hervir y reduce el fuego.",
+            "Cubrir y cocinar a fuego lento en la estufa hasta que las verduras estén tiernas, de 2 a 2.5 horas.",
+            "Mezclar 1/4 taza de agua fría y harina en un recipiente bien cerrado",
+            "Revolver gradualmente la mezcla en la olla con de carne.",
+            "Hervir, revolviendo constantemente por 1 minuto.",
+            "Servir sobre fideos calientes. Se puede congelar."
         ]
-    }
+    },
+
+    "wonton-soup": {
+        "categorias": ["sopas"],
+        "nombre": "Sopa de Wontons",
+        "descripcion": "Una deliciosa sopa de wontons rellenos de cerdo y camarones, perfectamente condimentados y servidos en un caldo de pollo aromático. Esta es una receta de mi suegrita Bonnie, muchas gracias por compartirla con nosotros:D.",
+        "porciones": "4",
+        "ingredientes": [
+            "2/3 libra de carne de cerdo molida",
+            "2 cucharaditas de salsa de soja",
+            "2 cucharaditas de cebollines, finamente cortados",
+            "1 cucharadita de vinagre de arroz",
+            "1 cucharadita de maicena",
+            "1 cucharadita de jengibre rallado",
+            "1 diente de ajo",
+            "1/2 cucharadita de hojuelas de pimiento rojo trituradas",
+            "1/2 cucharadita de aceite de sésamo",
+            "Opcional: camarones agregados",
+            "1 paquete de envolturas cuadradas de wonton",
+            "1/4 taza de agua",
+            "4 tazas de caldo de pollo (ver receta de caldo de pollo)",
+            "1 trozo de jengibre pelado de 2 pulgadas",
+            "1 cucharada más 2 cucharaditas de salsa de soja (cantidad aumentada)",
+            "2 dientes de ajo, machacados",
+            "1 cucharadita de salsa de frijol picante",
+            "2 cucharaditas de vino de arroz chino o jerez seco",
+            "1/4 cucharadita de aceite de sésamo",
+            "2 cucharadas de cebollines cortados, para decorar",
+            "2 paquetes de fideos Udon o fideos de tu elección"
+        ],
+
+        "instrucciones": [
+            "En un tazón grande, mezcla la carne de cerdo, salsa de soja, cebollines, vinagre de arroz, maicena, jengibre, ajo, hojuelas de pimiento rojo, aceite de sésamo y camarones (opcional) hasta que esté completamente incorporado.",
+            "Usando tu dedo, humedece los bordes de la envoltura de wonton con agua.",
+            "Coloca media cucharada de relleno de cerdo en el centro de la envoltura de wonton.",
+            "Dobla el wonton por la mitad en diagonal para crear un triángulo y sella los bordes.",
+            "Dobla las dos esquinas idénticas una sobre la otra y presiona nuevamente para sellar. Repite hasta que todas las envolturas de wonton estén llenas.",
+            "Lleva todos los ingredientes de la sopa a hervir. Hierve a fuego lento durante 10 minutos, luego retira el jengibre y los dientes de ajo y lleva a ebullición nuevamente.",
+            "Cocina los wontons en agua hirviendo con sal durante 8-10 minutos. Colócalos en agua fría cuando estén cocidos.",
+            "Sirve en tazones y decora con cebollines.",
+            "Los wontons se pueden preparar con anticipación y congelar. Congélalos en una bandeja para galletas en una sola capa para mantenerlos separados y luego puedes colocarlos en una bolsa para congelador para sacar algunos a la vez."
+        ]
+    },
+
+    "cinnamon-bun-rolls": {
+        "categorias": ["postres"],
+        "nombre": "Rollos de Canela",
+        "descripcion": "Deliciosos rollos de canela hechos en la máquina de pan, con un relleno dulce y glaseado. Esta es una receta de mi suegrita Bonnie, muchas gracias por compartirla con nosotros:D.",
+        "porciones": "7 (grandes)",
+        "tiempo-preparacion": "2 horas y 15 minutos",
+        "tiempo-coccion": "1 hora y 20 minutos",
+        "tiempo-total": "3 horas y 35 minutos",
+        "ingredientes": [
+            "1 taza de leche",
+            "3 cucharadas de agua, a temperatura ambiente",
+            "1 huevo mediano",
+            "2 cucharadas de mantequilla",
+            "3/4 cucharadita de sal",
+            "3 1/4 tazas de harina",
+            "2 cucharadas de azúcar para el pan",
+            "2 cucharaditas de levadura",
+            "1/3 taza + 1 cucharada de azúcar para el glaseado",
+            "2 cucharaditas de canela molida",
+            "2 cucharadas de mantequilla derretida para el glaseado",
+            "4 cucharadas de mantequilla derretida para el caramelo",
+            "1 taza de azúcar morena firmemente compactada",
+            "2 cucharadas de agua",
+            "1 taza de nueces picadas"
+        ],
+        "instrucciones": [
+            "Coloca todos los ingredientes para el pan (la taza de leche, 3 cucharadas de agua, 1 huevo, 2 cucharas de mantequilla, sal, harina, 2 cucharadas de azucar y 2 cucharaditas de levadura) en el recipiente de la máquina de pan en el orden que sugiere el manual.",
+            "Selecciona el ciclo de 'masa'.",
+            "Cuando termine, aproximadamente 2 horas en mi máquina de pan, retira la masa sobre una superficie ligeramente enharinada. Es una masa suave.",
+            "Cubre y deja reposar durante 10 minutos.",
+            "Mientras tanto, prepara el relleno: en un bol pequeño, combina el azúcar blanco y la canela. Reserva.",
+            "Extiende la masa en un rectángulo de 14 x 9 pulgadas.",
+            "Luego, pincela generosamente con 2 cucharadas de mantequilla derretida.",
+            "Espolvorea uniformemente con la mezcla de azúcar y canela.",
+            "Enrolla desde el lado largo. Presiona para sellar.",
+            "Vuelve a medir el rollo de masa a 14 pulgadas de largo; es decir, empuja la masa un poco hacia adentro.",
+            "Corta rodajas de 2 pulgadas.",
+            "Coloca las 4 cucharadas restantes de mantequilla derretida en el fondo de dos moldes redondos de 8-9 pulgadas.",
+            "Coloca los rollos en los moldes, cubre ligeramente con papel encerado o un paño de cocina limpio.",
+            "Deja que repose durante 20-30 minutos o hasta que dupliquen su tamaño.",
+            "Hornea a 350°F (175°C) durante 40-45 minutos.",
+            "Retira y voltea sobre una bandeja de servir.",
+            "Esto hace 7 rollos muy grandes. Para hacer rollos más pequeños, corta rodajas de 1 1/2 pulgadas. Hornea los más pequeños durante 25-30 minutos."
+        ]
+    },
+
+
+
+
 
 
 
