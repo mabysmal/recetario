@@ -11,16 +11,38 @@ export default function Home() {
   const { width, height } = useWindowSize();
 
   const whichImageToUse = (id) => {
+    // if (width < 600) {
+    //   return <img className='cardimg' src={'/placeholders/' + id + '-mobile' + '.jpg'} alt={recetas.nombre}></img>
+    // } 
+    // if (width > 600) {
+    //   return <img className='cardimg' src={'/placeholders/' + id + '.jpg'} alt={recetas.nombre}></img>
+    //   // return <img className='cardimg' src={'/placeholders/' + id + '1' + '.jpg'} alt={recetas.nombre}></img>
+    // }
+    // else {
+    //   return <img className='cardimg' src={'/placeholders/' + 'PEEPY.jpg'} alt={recetas.nombre}></img>
+    // }
+
     if (width < 600) {
-      return <img className='cardimg' src={'/placeholders/' + id + '-mobile' + '.jpg'} alt={recetas.nombre}></img>
-    } 
-    if (width > 600) {
-      return <img className='cardimg' src={'/placeholders/' + id + '.jpg'} alt={recetas.nombre}></img>
-      // return <img className='cardimg' src={'/placeholders/' + id + '1' + '.jpg'} alt={recetas.nombre}></img>
-    }
-    else {
-      return <img className='cardimg' src={'/placeholders/' + 'PEEPY.jpg'} alt={recetas.nombre}></img>
-    }
+      return <img
+          className='cardimg'
+          src={'/placeholders/' + id + '-mobile' + '.jpg'}
+          alt={recetas.nombre}
+          onError={({ currentTarget }) => {
+              currentTarget.onerror = null
+              currentTarget.src = '/placeholders/Peepy-mobile.jpg'
+              console.log('small')
+          }}></img>
+    } else {
+      return <img
+          className='cardimg'
+          src={'/placeholders/' + id + '.jpg'}
+          alt={recetas.nombre}
+          onError={(e) => {
+              e.target.onerror = null
+              e.target.src = '/placeholders/Peepy1.jpg'
+              console.log('big')
+          }}></img>
+  }
   }
 
 
