@@ -5,11 +5,12 @@ body {
 
 .title {
   color: wheat;
-  font-size: 350%;
+  font-size: 400%;
   text-align: center;
   justify-content: center;
   display: flex;
   padding-top: 3rem;
+  font-weight: 900;
 }
 
 div.card-content {
@@ -19,16 +20,17 @@ div.card-content {
   align-items: center;
   align-content: space-around;
   width: 70%;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 div.text-cards {
   flex-flow: column;
   display: flex;
   order: 1;
-  width: 66%;
-  text-decoration: none;
-  padding-left: 10%;
+  width: 60%;
+  text-decoration: solid;
+  padding: 2rem;
+
 }
 
 img.cardimg {
@@ -42,18 +44,21 @@ img.cardimg {
   color: wheat;
   font-size: 2rem;
   text-decoration: none;
+  margin-bottom: 0;
 }
 
 .card-content p {
-  color: wheat;
-  font-size: 1rem;
+  color: rgb(151, 129, 88);
+  font-size: 1.2rem;
   text-decoration: none;
+  margin-top: 0.5rem;
+
 }
 
 .card-content {
   border: solid orange 1px;
   justify-content: center;
-  padding: 2.5rem;
+  padding: 2rem;
   margin-right: auto;
   margin-left: auto;
 
