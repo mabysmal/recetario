@@ -50,7 +50,7 @@ export default function Home() {
   const cards = Object.keys(recetas).map(id =>
     <div className='cards' href={'/recetas/' + id}><a href={'/recetas/' + id}></a>
 
-      <a href={'/recetas/' + id}>
+      <a className='liga' href={'/recetas/' + id}>
         <div className='card-content'>
           {whichImageToUse(id)}
 
