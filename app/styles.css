@@ -1,152 +1,177 @@
-/* styles.css */
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap');
-
-
 body {
   background-color: rgb(36, 29, 26);
-  
+
+}
+/* styles.css */
+/* PARA EL CEL  HASTA 600PX*/
+.EntireContainer {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.main {
+  padding: 6rem 15rem;
 }
 
 .title {
   color: wheat;
-  font-size: 500%;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  padding-top: 3rem;
-  font-weight: 900;
+  font-size: 300%;
+  padding-top: 1rem;
+
 }
 
-div.card-content {
+.cardimg {
+  width: 70%;
+
+}
+
+.cards {
   display: flex;
-  flex-flow: row-reverse nowrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content: space-around;
-  width: 70%;
-  margin-bottom: 2rem;
-}
-
-div.text-cards {
-  flex-flow: column;
-  display: flex;
-  order: 1;
-  width: 60%;
-  text-decoration: solid;
-  padding: 2rem;
-
-}
-
-img.cardimg {
-  width: 30%;
-  display: flex;
-  order: 2;
+  text-align: center;
+  padding-bottom: 2rem;
 
 }
 
 .card-content h3 {
   color: orange;
-  font-size: 2rem;
+  font-size: 1.3rem;
   text-decoration: none;
-  margin-bottom: 0;
   font-family: 'Montserrat Alternates', sans-serif;
+  display: flex;
+  margin-top: 1rem;
 }
 
 .card-content p {
-  color: rgb(151, 115, 88);
-  font-size: 1.2rem;
-  text-decoration: none;
-  margin-top: 0.5rem;
-  font-family: 'Mukta Vaani', sans-serif;
-  line-height: 1.3rem;
-
-
-}
-
-.card-content {
-  border: solid rgb(183, 96, 10) 3px;
-  justify-content: center;
-  padding: 2%;
-  margin-right: auto;
+  color: wheat;
   margin-left: auto;
-  border-radius: 1rem;
+  margin-right: auto;
+  font-size: 0.8rem;
+  font-family: 'Mukta Vaani', sans-serif;
 
 }
 
-.cardsContainer {
+
+
+
+div.card-content {
   display: flex;
-  flex-direction: column;
+  width: 80%;
+  flex-direction: column-reverse;
   justify-content: center;
 }
 
-a.liga {
-  text-decoration: none;
+img.cardimg {
+  width: 80%;
+  display: flex;
+  order: 2;
+  padding-top: 1rem;
+
 }
 
-@media screen and (max-width: 600px) {
-  .EntireContainer {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+div.text-cards {
+  width: 80%;
+  padding: 1rem;
+}
 
-  .main {
-    padding: 6rem 15rem;
-  }
 
-  .cardimg {
-    width: 70%;
+/* PARA PANTALLAS COMO LAPTOPS DE 601px a 1279 */
 
-  }
 
-  .cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@media (min-width: 601px) and (max-width: 1279px) {
+
+  .title {
+    color: wheat;
+    font-size: 500%;
     text-align: center;
-    padding-bottom: 5rem;
-
-  }
-
-  .card-content h3 {
-    color: wheat;
-    font-size: 2rem;
-    text-decoration: none;
-    font-family: 'Kalnia', serif;
-  }
-
-  .card-content p {
-    color: wheat;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "Roboto";
-
+    justify-content: center;
+    display: flex;
+    padding-top: 3rem;
+    font-weight: 900;
   }
 
   div.card-content {
     display: flex;
-    flex-direction: column-reverse;
+    flex-flow: row-reverse nowrap;
     justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    width: 60%;
+    margin-bottom: 2rem;
+  }
+
+  div.text-cards {
+    flex-flow: column;
+    display: flex;
+    order: 1;
+    width: 60%;
+    text-decoration: solid;
+    padding: 2rem;
+
   }
 
   img.cardimg {
-    width: 80%;
+    width: 30%;
     display: flex;
     order: 2;
 
   }
 
-  div.text-cards{
-    padding: 0;
+  .card-content h3 {
+    color: orange;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-bottom: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
   }
 
+  .card-content p {
+    color: rgb(151, 115, 88);
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    font-family: 'Mukta Vaani', sans-serif;
+    line-height: 1.3rem;
 
+
+  }
+
+  .card-content {
+    border: solid rgb(183, 96, 10) 3px;
+    justify-content: center;
+    padding: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 1rem;
+
+  }
+
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  a.liga {
+    text-decoration: none;
+  }
 }
 
+/* PARA PANTALLAS GRANDES de minimo 1280  */
 
 
-  /*
+
+
+
+
+
+
+
+
+/*
 ///////////////////////////////////////////////
 
 /* body {
