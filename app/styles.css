@@ -1,9 +1,4 @@
 /* styles.css */
-/* PARA EL CEL */
-
-/* PARA PANTALLAS COMO LAPTOPS */
-
-/* PARA PANTALLAS COMO TABLETS */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap');
 
@@ -165,6 +160,47 @@ a.liga {
 
 
 }
+
+@media screen and (min-width: 1280px) {
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten a varias líneas */
+    justify-content: space-between; /* Distribuye los elementos a lo largo del contenedor */
+    flex-direction: row;
+  }
+
+  .cards {
+    width: calc(33.33% - 2rem); /* Establece el ancho de cada tarjeta, considerando el espacio entre ellas */
+    margin-bottom: 2rem; /* Añade un espacio entre las tarjetas */
+    box-sizing: border-box;
+    
+  }
+  .liga{
+    align-items: stretch;
+  }
+
+  img.cardimg{
+    order: 1;
+    align-self: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .textcards h3{
+    order: 1;
+  }
+
+  .textcards p{
+    order: 2;
+  }
+
+
+
+}
+
+
+
+
 
 
 
