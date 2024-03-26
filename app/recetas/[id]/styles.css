@@ -8,7 +8,8 @@ body {
 }
 
 .RecetaContainer {
-    font-family: 'Montserrat Alternates', sans-serif;
+    
+    font-family: 'Mukta Vaani', sans-serif;
 }
 
 .presentation {
@@ -29,6 +30,7 @@ body {
     padding-right: 2rem;
     padding-bottom: 2rem;
     text-align: center;
+    
 
 }
 
@@ -84,9 +86,9 @@ h1.dish-name {
     text-align: center;
     justify-content: center;
     display: flex;
-    font-weight: 900;
-    font-size: 6rem;
-    font-family: 'Mukta Vaani', sans-serif;
+    font-weight: 800;
+    font-size: 5rem;
+    font-family: 'Montserrat Alternates', sans-serif;
     display: flex;
     justify-content: center;
     line-height: 5rem;
