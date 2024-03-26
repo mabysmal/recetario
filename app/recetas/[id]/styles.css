@@ -1,12 +1,17 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+body {
     background-color: rgb(36, 29, 26);
 
 }
-.RecetaContainer{
-    font-family: 'Roboto';
+
+.RecetaContainer {
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
-.presentation{
+.presentation {
     display: flexbox;
     justify-content: center;
     align-items: center;
@@ -18,8 +23,8 @@ body{
     color: wheat;
 }
 
-.dish-description{
-    font-size: large;
+.dish-description {
+    font-size: 2vw;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;
@@ -27,117 +32,150 @@ body{
 
 }
 
-.time{
+.time {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: large;
+    justify-content: space-between;
+    align-items: stretch;
+
     row-gap: 0.5rem;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 2rem;
+    padding-top: 2rem;
 
 }
 
+.time>div {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-.dish-prep, .dish-cook, .dish-total, .servings{
+}
+
+div.time>div {
+    border: solid 1px rgb(93, 56, 28);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+
+.dish-sub {
     font-weight: 800;
+    text-align: right;
 }
 
-.item div{
+.dish-time-portion {
+    text-align: left;
+}
+
+.item div {
     flex-basis: auto;
-} 
+}
 
 
 
 
 
-h1.dish-name{
+h1.dish-name {
+    color: orange;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 900;
     font-size: 6rem;
-    font-family: 'Kalnia', serif;
+    font-family: 'Mukta Vaani', sans-serif;
     display: flex;
     justify-content: center;
-    padding-bottom: 2rem;
-
+    line-height: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 
 
 
-.ingredientesEInstrucciones{
+.ingredientesEInstrucciones {
     color: wheat;
     display: grid;
-  grid-template-columns: minmax(100px, 20%) 1fr;;
+    grid-template-columns: minmax(100px, 20%) 1fr;
+    border-top: solid 1px rgb(93, 56, 28);
+    padding-top: 2rem;
+    ;
 }
 
-.ingredients{
+.ingredients {
     margin-left: auto;
     margin-right: auto;
-    width: 80%;;
+    width: 80%;
+    ;
 }
 
-.ingredients ul li{
+.ingredients ul li {
     padding-bottom: 10%;
     line-height: 1.5rem;
     font-size: large;
 }
 
-.ingredients h3{
+.ingredients h3 {
     text-align: center;
     font-size: xx-large;
     padding-bottom: 1rem;
 }
 
 
-.instructions{
+.instructions {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    
+
 }
 
-.instructions h3{
+.instructions h3 {
     text-align: center;
     font-size: xx-large;
     padding-bottom: 1rem;
 }
 
-.instructions ol li{
+.instructions ol li {
     padding-bottom: 1rem;
     line-height: 2rem;
     font-size: large;
 }
 
-.cardimg{
+.cardimg {
     min-width: auto;
     max-width: 70%;
     height: auto;
-} 
+}
 
-@media screen and (min-width: 320px) and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .main {
-      padding: 6rem 15rem;
+        padding: 6rem 15rem;
     }
+
     .title {
-      font-size: 6rem;
+        font-size: 6rem;
     }
-    .listaRecetas{
-      font-size: large;
+
+    .listaRecetas {
+        font-size: large;
     }
-    h1.dish-name{
-        font-size: 18vw;
-        font-family: 'Kalnia', serif;
+
+    h1.dish-name {
+        font-size: 5rem;
         display: flex;
         justify-content: center;
         padding-bottom: 0.2rem;
         text-align: center;
-        color: wheat;
-    
+        ;
+
     }
 
-    .presentation{
+    .presentation {
         display: flexbox;
         justify-content: center;
         align-items: center;
@@ -149,7 +187,7 @@ h1.dish-name{
     }
 
 
-    img.cardimg{
+    img.cardimg {
         min-width: auto;
         max-width: 70%;
         height: auto;
@@ -159,89 +197,96 @@ h1.dish-name{
         padding-bottom: 1rem;
     }
 
-    .dish-description{
-        font-size: 5vw;
+    .dish-description {
+        font-size: 1rem;
         text-align: center;
-    
+
     }
-    
-    .time{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+
+    .time {
         font-size: 3.5vw;
         row-gap: 0.5rem;
         padding-left: 3rem;
         padding-right: 3rem;
         padding-bottom: 2rem;
-    
-    }
-    
-    
-    .dish-prep, .dish-cook, .dish-total, .servings{
-        font-weight: 800;
-    }
-    
-    .item div{
-        flex-basis: auto;
-    }
-    
-    .ingredientesEInstrucciones{
-        color: wheat;
-        display: grid;
-      grid-template-columns: minmax(100px, 20%) 1fr;;
-    }
-    
-    .ingredients{
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;;
+
     }
 
-    .ingredients ul{
+    div.time>div {
+        font-size: 3vw;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+
+    .dish-sub {
+        font-weight: 800;
+    }
+
+    .item div {
+        flex-basis: auto;
+    }
+
+    .ingredientesEInstrucciones {
+        color: wheat;
+        display: grid;
+        grid-template-columns: minmax(100px, 20%) 1fr;
+        ;
+    }
+
+    .ingredients {
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 80%;
+        ;
+    }
+
+    .ingredients ul {
         padding-left: 5%;
     }
-    
-    .ingredients ul li{
+
+    .ingredients ul li {
         padding-bottom: 10%;
         line-height: 1.5rem;
-        font-size: 3.5vw;
+        font-size: 3vw;
+        margin-bottom: 1rem;
     }
-    
-    .ingredients h3{
+
+    .ingredients h3 {
         text-align: center;
-        font-size: 5vw;
+        font-size: 4vw;
+        margin: 0;
     }
-    
-    
-    .instructions{
+
+
+    .instructions {
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
         width: 70%;
-        
-        
+
+
     }
-    
-    .instructions h3{
+
+    .instructions h3 {
         text-align: center;
-        font-size: 5vw;
+        font-size: 4vw;
         padding-left: 20%;
+        margin: 0;
     }
-    
-    .instructions ol li{
+
+    .instructions ol li {
         padding-bottom: 1rem;
         line-height: 2rem;
-        font-size: 3.5vw;
+        font-size: 3vw;
+        margin-bottom: 0.5rem;
     }
 
-    p.dish-description{
-        font-size: 5vw;
+    p.dish-description {
+        font-size: 4vw;
         text-align: center;
     }
 
-  }
-
-
-
+}

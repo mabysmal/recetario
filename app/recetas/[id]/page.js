@@ -57,23 +57,23 @@ const RecipeName = ({ params }) => {
 
                     <div className="time">
                         <div>
-                            <span className="dish-prep">Preparación: </span>
-                            <span className="dish-prep1">{receta["tiempo-preparacion"]}</span>
+                            <span className="dish-sub">Preparación: </span>
+                            <span className="dish-time-portion">{receta["tiempo-preparacion"]}</span>
                         </div>
 
                         <div>
-                            <span className="dish-cook">Cocción: </span>
-                            <span className="dish-cook1">{receta["tiempo-coccion"]}</span>
+                            <span className="dish-sub">Cocción: </span>
+                            <span className="dish-time-portion">{receta["tiempo-coccion"]}</span>
                         </div>
 
                         <div>
-                            <span className="dish-total">Total: </span>
-                            <span className="dish-total1">{receta["tiempo-total"]}</span>
+                            <span className="dish-sub">Total: </span>
+                            <span className="dish-time-portion">{receta["tiempo-total"]}</span>
                         </div>
 
                         <div>
-                            <span className="servings"> Porciones: </span>
-                            <span className="servings1"> {receta.porciones} </span>
+                            <span className="dish-sub"> Porciones: </span>
+                            <span className="dish-time-portion"> {receta.porciones} </span>
                         </div>
                     </div>
                 </div>
